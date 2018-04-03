@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import * as actions from '../../../actions/book_actions';
-import './Book_Item.scss';
+import './Book_Item.css';
 
 class BookItem extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   onSelectBook() {
     this.props.selectBook(this.props.book);

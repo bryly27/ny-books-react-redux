@@ -1,0 +1,9 @@
+.book {
+  padding: 16px;
+  cursor: pointer; }
+  .book .image {
+    width: 100%; }
+  .book .title {
+    margin-bottom: 8px; }
+    .book .title a {
+      text-decoration: none; }

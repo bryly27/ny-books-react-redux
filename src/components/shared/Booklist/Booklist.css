@@ -1,0 +1,8 @@
+.books {
+  padding: 16px;
+  margin: 16px; }
+  .books .book-list {
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 16px; }
+    .books .book-list .book-list-title {
+      margin-bottom: 16px; }

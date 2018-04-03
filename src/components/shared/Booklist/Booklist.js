@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Booklist.scss';
+import './Booklist.css';
 
 import BookItem from './../Book_Item/Book_Item';
 

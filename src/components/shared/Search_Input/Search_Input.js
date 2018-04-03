@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import './Search_Input.scss';
+import './Search_Input.css';
 
 class SearchInput extends Component {
   constructor(props) {

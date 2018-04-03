@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+
+* {
+  box-sizing: border-box; }
+
+p, h1, h2, h3, h4, body {
+  margin: 0; }
+
+a {
+  color: blue;
+  cursor: pointer; }
+
+.col-2 {
+  display: inline-block;
+  vertical-align: top;
+  width: 16.66%; }
+
+.col-6 {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%; }
+
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%; } }

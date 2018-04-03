@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDom from 'react-dom';
 
-import './Modal.scss';
+import './Modal.css';
 
 class Modal extends Component {
   componentDidMount() {
@@ -28,7 +28,7 @@ class Modal extends Component {
             <h2>{this.props.book.title}</h2>
           </div>
           <div className="body">
-            <img src={this.props.book.book_image} className="image" />
+            <img src={this.props.book.book_image} className="image" alt="" />
             <div className="text">
               <p className="author">{this.props.book.author}</p>
               <p className="description">{this.props.book.description}</p>

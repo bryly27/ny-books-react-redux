@@ -1,0 +1,28 @@
+.book-modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  text-align: center; }
+  .book-modal .modal-content {
+    margin-top: 24px;
+    background-color: white;
+    display: inline-block;
+    padding: 16px;
+    border-radius: 4px;
+    text-align: left; }
+    .book-modal .modal-content .title {
+      margin-bottom: 16px; }
+    .book-modal .modal-content .body img, .book-modal .modal-content .body .text {
+      display: inline-block;
+      vertical-align: top; }
+    .book-modal .modal-content .body img {
+      width: 200px;
+      margin: 0 16px 16px 0; }
+    .book-modal .modal-content .body .text p {
+      margin-bottom: 8px; }
+    .book-modal .modal-content .footer {
+      text-align: right; }

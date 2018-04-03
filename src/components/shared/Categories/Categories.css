@@ -1,0 +1,20 @@
+.categories {
+  padding: 16px;
+  border-bottom: 1px solid #dddddd;
+  margin: 16px; }
+  .categories .categories-title {
+    margin-bottom: 16px; }
+  .categories .category {
+    text-align: center;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 4px; }
+    .categories .category .icon {
+      font-size: 50px;
+      margin-bottom: 16px;
+      color: #6A6B6B; }
+    .categories .category .title {
+      font-size: 16px;
+      color: #6A6B6B; }
+    .categories .category:hover {
+      background: rgba(0, 0, 0, 0.05); }
