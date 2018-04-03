@@ -1,0 +1,31 @@
+.categories {
+  padding: 16px;
+  border-bottom: 1px solid #dddddd;
+  margin: 16px;
+
+  .categories-title {
+    margin-bottom: 16px;
+  }
+
+  .category {
+    text-align: center;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 4px;
+
+    .icon {
+      font-size: 50px;
+      margin-bottom: 16px;
+      color: #6A6B6B;
+    }
+
+    .title {
+      font-size: 16px;
+      color: #6A6B6B;
+    }
+
+    &:hover {
+      background: rgba(0, 0, 0, .05);
+    }
+  }
+}
